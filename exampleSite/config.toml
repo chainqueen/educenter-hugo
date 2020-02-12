@@ -1,6 +1,7 @@
 ######################## default configuration ####################
-baseURL = "http://examplesite.org"
-title = "Educenter | hugo education template"
+baseURL = "http://chainqueen.github.io"
+myURL1 = "https://disqus.com"
+title = "Cloud Native ML and AI | DONGCHANGJIN"
 theme = "educenter-hugo"
 # post pagination
 paginate = "6"
@@ -11,6 +12,9 @@ disqusShortname = "educenter" # get your shortname form here : https://disqus.co
 # disable language
 disableLanguages = [] # desable language from here
 
+# Default language to use (if you setup multilingual support)
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = true
 
 ############################# Plugins ##############################
 
@@ -41,7 +45,7 @@ link = "plugins/filterizr/jquery.filterizr.min.js"
 link = "plugins/google-map/gmap.js"
 
 
-############################## navigation ###############################
+############################## navigation  english###############################
 
 # main menu
 [[menu.main]]
@@ -95,7 +99,7 @@ URL = "contact"
 weight = 5
 
 
-# footer menu
+# footer menu for english
 
 [[menu.footer]]
 name = "teacher"
@@ -117,27 +121,108 @@ URL = "scholarship"
 name = "research"
 URL = "research"
 
+############################## navigation chinese  ###############################
 
+# main menu
+[[Languages.zh.menu.main]]
+name = "关于"
+URL = "about"
+weight = 1
+
+[[Languages.zh.menu.main]]
+name = "焦点"
+URL = "course"
+weight = 2
+
+[[Languages.zh.menu.main]]
+weight = 3
+name = "更多"
+hasChildren = true
+
+  [[Languages.zh.menu.main]]
+  parent = "更多"
+  name = "老师"
+  URL = "teacher"
+
+  [[Languages.zh.menu.main]]
+  parent = "更多"
+  name = "更新"
+  URL = "notice"
+
+  [[Languages.zh.menu.main]]
+  parent = "更多"
+  name = "事件"
+  URL = "event"
+
+  [[Languages.zh.menu.main]]
+  parent = "更多"
+  name = "课程"
+  URL = "scholarship"
+
+  [[Languages.zh.menu.main]]
+  parent = "更多"
+  name = "研究"
+  URL = "research"
+  
+[[Languages.zh.menu.main]]
+name = "博客"
+URL = "blog"
+weight = 4
+  
+[[Languages.zh.menu.main]]
+name = "联系"
+URL = "contact"
+weight = 5
+
+# footer menu for chinese
+
+[[Languages.zh.menu.footer]]
+name = "老师"
+URL = "teacher"
+
+[[Languages.zh.menu.footer]]
+name = "更新"
+URL = "notice"
+
+[[Languages.zh.menu.footer]]
+name = "事件"
+URL = "event"
+
+[[Languages.zh.menu.footer]]
+name = "课程"
+URL = "scholarship"
+
+[[Languages.zh.menu.footer]]
+name = "研究"
+URL = "research"
+#################### default address ################################
+[Languages.zh.params]
+# contact info
+address = "请扫描下面二维码加我微信"
+URL = 'http://www.baidu.com/'
+mobile = "oracle_520"
+email = "docker2@163.com"
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
+logo1 = "images/logo1.png"
 # Meta data
-description = "This is meta description"
+description = "DONGCHANGJIN'S BLOG"
 author = "Themefisher"
 # contact info
-address = "9567 Turner Trace Apt. BC C3G8A4"
-mobile = "+211234565523"
-email = "info@educenter.com"
+address = "Follow Me on Twitter"
+URL = 'https://twitter.com/aimatrix/'
+mobile = "oracle_520"
+email = "docker2@163.com"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = "" # your id
 # top header
 top_header = true
-
 # Preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 # Subscription
@@ -184,21 +269,31 @@ link = "#"
 
 ################################### English language #####################################
 [Languages.en]
-languageName = "En"
+languageName = "English"
 languageCode = "en-us"
 contentDir = "content/english"
-weight = 1
+weight = 2
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+copyright = "Copyright &copy; 2020 Tyler Dong All Rights Reserved；Powerd by Hugo with [educenter](https://themefisher.com)"
 
 
 ################################### French language #####################################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-home = "Accueil"
+[Languages.zh]
+languageName = "中文"
+languageCode = "zh-zh"
+contentDir = "content/chinese"
+weight = 1
+home = "主页"
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+copyright = "Copyright &copy; 2020 Tyler Dong 保留所有权利；基于 Hugo [educenter](https://themefisher.com) 主题构建"
+
+################################### French language #####################################
+#[Languages.zh]
+#languageName = "中文"
+#languageCode = "zh-cn"
+#contentDir = "content/chinese"
+#weight = 1
+#home = "主页"
+# copyright
+#copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"

@@ -4,8 +4,20 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Serverless is The future of cloud computing"
+      content : "Serverless marks the next leg of the cloud journey as CIOs further abstract infrastructure and operations in pursuit of greater business agility."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Learning"
+        link : "contact"
+
+    # slider item loop
+    - title : "Service Mesh is the Future of Scaling Containers"
+    #- title : "the Future of Scaling Containers is Service Mesh"
+      content : "Microservices are great for development velocity, but the complexity in these architectures lies in the service-to-service communication that microservices depend on(servicemesh)."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -15,8 +27,8 @@ slider:
         link : "contact"
 
     # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Edge Computing is the future of Communications Network"
+      content : "Edge computing is transforming the way data is being handled, processed, and delivered from millions of devices around the world."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -26,8 +38,8 @@ slider:
         link : "contact"
 
     # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Artificial Intelligence let the future is already here"
+      content : "Many of the internet giants have shown how cloud-native-based AI/ML can be applied to solve previously intractable problems"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -35,43 +47,42 @@ slider:
         enable : true
         label : "Apply now"
         link : "contact"
-
-
 ############################### Banner feature ###############################
 banner_feature:
   enable : true
   image : "images/banner/banner-feature.png"
   feature_item:
     # feature item loop
-    - name : "Scholorship News"
-      icon : "ti-book" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+    - name : "Serverless"
+      #icon : "ti-book" # icon pack : https://themify.me/themify-icons
+      images1 : "images/banner/serverless.png"
+      content : "The Serverless Framework helps you build serverless apps with radically less overhead and cost."
 
     # feature item loop
-    - name : "Our Notice Board"
-      icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+    - name : "ServiceMesh"
+      #icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
+      images1 : "images/banner/servicemesh.png"
+      content : "A Service Mesh is a dedicated infrastructure layer for handling service-to-service communication."
 
     # feature item loop
-    - name : "Our Achievements"
-      icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+    - name : "Edge Computing"
+      #icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
+      images1 : "images/banner/edgecomputing.png"
+      content : "Edge computing is a distributed computing paradigm which brings computation and data storage closer to the location where it is needed."
 
     # feature item loop
-    - name : "Admission Now"
-      icon : "ti-write" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+    - name : "Artificial Intelligence"
+      #icon : "ti-write" # icon pack : https://themify.me/themify-icons
+      images1 : "images/banner/ai.png"
+      content : "Artificial intelligence will accelerate machine learning from research to enterprise-scale production through cloud-native technology."
 
 
 ############################## about ##################################
 about:
   enable : true
-  title : "About Educenter"
+  title : "About Me"
   image : "images/about/about-us.jpg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat
-
-
-  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem "
+  content : "Tyler is a cloud native technology enthusiast, focusing on learning and researching cloud native technologies, such as serverless, service mesh, edge computing, artificial intelligence, etc."
   button:
     enable : true
     label : "Learn more"
@@ -81,17 +92,17 @@ about:
 ############################# Course ################################
 course:
   enable : true
-  title : "Our Course"
+  title : "My Focus"
   # course item comes from "content/**/course" folder.
 
 ########################## Call to action ############################
 cta:
   enable : true
   subtitle : "Click to Join the Advance Workshop"
-  title : "Training In Advannce Networking"
+  title : "Get Invovloed in Cloud Native"
   button:
     enable : true
-    label : "join now"
+    label : "Join Now"
     link : "contact"
 
 
@@ -99,12 +110,9 @@ cta:
 success_story:
   enable : true
   bg_image : "images/backgrounds/success-story.jpg"
-  title : "Success Stories"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
-            
-            
-  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+  title : "Quick Start"
+  content : "
+A good start is half done. If you need to develop cloud-native applications locally, it is necessary to set up the latest version of a highly available Kubernetes cluster. Let's start now "
   # video link
   video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
 
@@ -121,19 +129,19 @@ funfacts:
   enable : true
   funfact_item:
     # funfact item loop
-    - name : "TEACHERS"
+    - name : "Published Books"
       count : "60"
 
     # funfact item loop
-    - name : "COURSES"
+    - name : "Sponsored Events"
       count : "50"
 
     # funfact item loop
-    - name : "STUDENTS"
+    - name : "Talks"
       count : "1000"
 
     # funfact item loop
-    - name : "SATISFIED CLIENT"
+    - name : "Community Members"
       count : "1400"
 
 # funfact is for about page
@@ -143,5 +151,5 @@ funfacts:
 ############################# blog ################################
 blog:
   enable : true
-  title : "Latest News"
+  title : "Latest Blog"
   # blog item comes from "content/**/blog" folder.

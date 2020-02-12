@@ -80,19 +80,19 @@
   translation: Enter your email…
 
 - id: company
-  translation: company
+  translation: MINE
 
 - id: links
   translation: links
 
 - id: courses
-  translation: Courses
+  translation: MyFocus
 
 - id: new_notice
   translation: new notice
 
 - id: call
-  translation: call
+  translation: wechat
 
 - id: email
   translation: email
@@ -104,7 +104,7 @@
   translation: SUMMARY OF ACTIVITIES/INTERESTS
 
 - id: our_teachers
-  translation: Our Teachers
+  translation: My partners
 
 - id: download
   translation: Download
