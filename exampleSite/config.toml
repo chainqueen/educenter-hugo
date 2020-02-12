@@ -7,7 +7,7 @@ myURL1 = "https://disqus.com"
 paginate = "6"
 summaryLength = "10"
 theme = "educenter-hugo"
-title = "Cloud Native ML and AI | DONGCHANGJIN"
+title = "Cloud Native ML and AI | DongChangJin"
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2020 Tyler Dong All Rights Reserved；Powerd by Hugo with [educenter](https://themefisher.com)"
