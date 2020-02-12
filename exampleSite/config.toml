@@ -185,21 +185,21 @@ mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463e
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
 [[params.social]]
 icon = "ti-facebook"
-link = "#"
+link = "https://www.facebook.com/duoyunio"
 title = "facebook"
 [[params.social]]
 icon = "ti-twitter-alt"
-link = "#"
+link = "https://twitter.com/duoyunio"
 title = "twitter"
 [[params.social]]
-icon = "ti-instagram"
-link = "#"
-title = "instagram"
+icon = "ti-youtube"
+link = "https://www.youtube.com/channel/UCC0nKPdBP9AtIsDRiUZdKkw?view_as=subscriber"
+title = "youtube"
 [[params.social]]
 icon = "ti-github"
-link = "#"
+link = "https://github.com/duoyunio"
 title = "github"
 [[params.social]]
 icon = "ti-linkedin"
-link = "#"
+link = "https://www.linkedin.com/in/duodu/"
 title = "linkedin"

@@ -4,7 +4,7 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Serverless 是云计算的未来"
+    - title : "无服务是云计算的未来"
       content : "随着CIO为追求更大的业务敏捷性进一步抽象化基础架构和运营，无服务器标志着云计算之旅的下一个阶段。"
       animation_in : "left"
       animation_out : "right"
@@ -15,14 +15,14 @@ slider:
         link : "contact"
 
     # slider item loop
-    - title : "Servicemesh 是扩展容器的未来"
+    - title : "服务网格是扩展容器的未来"
       content : "微服务对于提高开发速度非常有用，但是这些体系结构的复杂性在于微服务所依赖的服务到服务通信（Servicemesh）。"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Postuler"
+        label : "开始了解"
         link : "contact"
 
     # slider item loop
@@ -33,7 +33,7 @@ slider:
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Postuler"
+        label : "开始了解"
         link : "contact"
 
     # slider item loop
@@ -44,7 +44,7 @@ slider:
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Postuler"
+        label : "开始了解"
         link : "contact"
 ############################### Banner feature ###############################
 banner_feature:
