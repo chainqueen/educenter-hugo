@@ -1,6 +1,6 @@
 baseURL = "https://chainqueen.netlify.com"
 defaultContentLanguage = "zh"
-defaultContentLanguageInSubdir = true
+#defaultContentLanguageInSubdir = true
 disableLanguages = []
 disqusShortname = "educenter"
 myURL1 = "https://disqus.com"
