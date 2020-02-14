@@ -14,8 +14,8 @@ sections:
   templates:
   - post
 - type: directory
-  path: exampleSite/content/french/blog
-  label: Post (fr)
+  path: exampleSite/content/chinese/blog
+  label: Post (zh)
   create: documents
   match: "**/*"
   templates:
@@ -30,8 +30,8 @@ sections:
   templates:
   - author
 - type: directory
-  path: exampleSite/content/french/author
-  label: Author (fr)
+  path: exampleSite/content/chinese/author
+  label: Author (zh)
   create: documents
   match: "**/*"
   templates:
@@ -46,8 +46,8 @@ sections:
   templates:
   - course
 - type: directory
-  path: exampleSite/content/french/course
-  label: Course (fr)
+  path: exampleSite/content/chinese/course
+  label: Course (zh)
   create: documents
   match: "**/*"
   templates:
@@ -62,8 +62,8 @@ sections:
   templates:
   - notice
 - type: directory
-  path: exampleSite/content/french/notice
-  label: Notice (fr)
+  path: exampleSite/content/chinese/notice
+  label: Notice (zh)
   create: all
   match: "**/*"
   templates:
@@ -78,8 +78,8 @@ sections:
   templates:
   - teacher
 - type: directory
-  path: exampleSite/content/french/teacher
-  label: Teacher (fr)
+  path: exampleSite/content/chinese/teacher
+  label: Teacher (zh)
   create: all
   match: "**/*"
   templates:
@@ -94,8 +94,8 @@ sections:
   templates:
   - event
 - type: directory
-  path: exampleSite/content/french/event
-  label: Event (fr)
+  path: exampleSite/content/chinese/event
+  label: Event (zh)
   create: all
   match: "**/*"
   templates:
@@ -110,8 +110,8 @@ sections:
   templates:
   - research
 - type: directory
-  path: exampleSite/content/french/research
-  label: Research (fr)
+  path: exampleSite/content/chinese/research
+  label: Research (zh)
   create: all
   match: "**/*"
   templates:
@@ -126,8 +126,8 @@ sections:
   templates:
   - scholarship
 - type: directory
-  path: exampleSite/content/french/scholarship
-  label: Scholarship (fr)
+  path: exampleSite/content/chinese/scholarship
+  label: Scholarship (zh)
   create: all
   match: "**/*"
   templates:
@@ -140,8 +140,8 @@ sections:
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/french/about
-  label: About (fr)
+  path: exampleSite/content/chinese/about
+  label: About (zh)
   create: none
   match: "*"
 - type: directory
@@ -150,8 +150,8 @@ sections:
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/french/contact
-  label: Contact (fr)
+  path: exampleSite/content/chinese/contact
+  label: Contact (zh)
   create: none
   match: "*"
 - type: directory
@@ -162,8 +162,8 @@ sections:
   templates:
   - new-page
 - type: directory
-  path: exampleSite/content/french/pages
-  label: Created Pages (fr)
+  path: exampleSite/content/chinese/pages
+  label: Created Pages (zh)
   create: all
   match: "**/*"
   templates:
@@ -176,8 +176,8 @@ sections:
   templates:
   - new-page
 - type: directory
-  path: exampleSite/content/french
-  label: All Pages (fr)
+  path: exampleSite/content/chinese
+  label: All Pages (zh)
   create: all
   match: "**/*"
   templates:
@@ -190,8 +190,8 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: exampleSite/data/fr
-  label: Data (fr)
+  path: exampleSite/data/zh
+  label: Data (zh)
   create: all
   match: "**/*"
 - type: directory

@@ -5,7 +5,7 @@
   translation: Formulaire de contact
 
 - id: send
-  translation: envoyer
+  translation: 发送信息
 
 - id: contact_info
   translation: Info de contact
@@ -17,10 +17,10 @@
   translation: S’abonner
 
 - id: contact_us
-  translation: Nous joindre
+  translation: 联系
 
 - id: latest_article
-  translation: Dernier article
+  translation: 最近文章
 
 - id: categories
   translation: 类别
