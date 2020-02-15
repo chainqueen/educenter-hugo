@@ -80,7 +80,7 @@ weight = 5
 URL = "http://www.baidu.com/"
 address = "请扫描下面二维码加我微信"
 email = "docker2@163.com"
-mobile = "oracle_520"
+wechat = "oracle_520"
 [[menu.footer]]
 URL = "teacher"
 name = "teacher"
@@ -146,7 +146,7 @@ email = "docker2@163.com"
 google_analitycs_id = ""
 logo = "images/logo.png"
 logo1 = "images/logo1.png"
-mobile = "oracle_520"
+wechat = "oracle_520"
 top_header = true
 
 [params.contact]
