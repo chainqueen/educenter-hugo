@@ -8,7 +8,7 @@ description : "
 Value generates confidence, confidence generates zeal, and zeal conquers the world."
 ---
 
-You can contact Jimmy Song in the following ways.
+You can contact TylerDong in the following ways.
 
 Via the form on the web page
 You can send me a message directly via the form on the current web page.

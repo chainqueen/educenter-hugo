@@ -91,11 +91,11 @@
 - id: new_notice
   translation: 通知
 
-- id: call
-  translation: WECHAT
+- id: wechat
+  translation: 微信
 
 - id: email
-  translation: EMAIL
+  translation: 邮箱
 
 - id: all
   translation: 所有

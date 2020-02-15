@@ -7,7 +7,7 @@ bg_image: "images/backgrounds/page-title.jpg"
 description : "价值产生信心，信心产生热忱，而热忱则征服世界。"
 ---
 
-您可以使用以下方式与 Jimmy Song 取得联系。
+您可以使用以下方式与 Tyler Dong 取得联系。
 
 通过网页中的表格
 您可以通过当前网页中的表格直接发送信息给我。
