@@ -18,6 +18,4 @@ You can send me a message directly via the form on the current web page.
 
 Free feel to directly message to me on twitter.
 
-image: "images/logo1.png"
-
 Beijing, China
