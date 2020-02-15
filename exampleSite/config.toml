@@ -151,9 +151,9 @@ top_header = true
 
 [params.contact]
 contact_name = "Your Name"
-contact_Email = "Your Email"
-contact_Subject = "Subject"
-contact_Message = "Your Message"
+contact_email = "Your Email"
+contact_subject = "Subject"
+contact_message = "Your Message"
 
 [Languages.zh.params.contact]
 contact_name = "怎么称呼您"
