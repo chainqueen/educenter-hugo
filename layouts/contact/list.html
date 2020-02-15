@@ -12,9 +12,9 @@
       <div class="col-lg-7 mb-4 mb-lg-0">
         <form action="{{ .Site.Params.contact_form_action | safeURL }}" method="POST">
           <input type="text" class="form-control mb-3" id="name" name="name" placeholder="{{ .Site.Params.contact.contact_name }}">
-          <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="{{.Site.Params.contact_email }}">
-          <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder=" {{.Site.Params.contact_subject }}">
-          <textarea name="message" id="message" class="form-control mb-3" placeholder="{{.Site.Params.contact_message}}"></textarea>
+          <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="{{.Site.Params.contact.contact_email }}">
+          <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder=" {{.Site.Params.contact.contact_subject }}">
+          <textarea name="message" id="message" class="form-control mb-3" placeholder="{{.Site.Params.contact.contact_message}}"></textarea>
           <button type="submit" value="send" class="btn btn-primary">{{ i18n "send" }}</button>
         </form>
       </div>
