@@ -91,7 +91,7 @@
 - id: new_notice
   translation: new notice
 
-- id: call
+- id: wechat
   translation: wechat
 
 - id: email
