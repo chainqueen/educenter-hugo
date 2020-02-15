@@ -148,6 +148,13 @@ logo = "images/logo.png"
 logo1 = "images/logo1.png"
 mobile = "oracle_520"
 top_header = true
+
+[params.contact]
+contact_name = "Your Name"
+contact_Email = "Your Email"
+contact_Subject = "Subject"
+contact_Message = "Your Message"
+
 [params.map]
 enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
