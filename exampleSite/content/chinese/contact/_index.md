@@ -17,6 +17,6 @@ description : "价值产生信心，信心产生热忱，而热忱则征服世�
 
 添加微信好友时请发送如下格式「姓名-公司」，否则可能不予通过，谢谢合作。 
 
-image: "images/logo1.png"
+bg_image: "images/backgrounds/page-title.jpg"
 
 中国，北京
