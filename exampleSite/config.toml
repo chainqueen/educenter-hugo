@@ -150,7 +150,7 @@ mobile = "oracle_520"
 top_header = true
 
 [params.contact]
-contact_name = "Your Name"
+contact_name = "Your Name1"
 contact_Email = "Your Email"
 contact_Subject = "Subject"
 contact_Message = "Your Message"
