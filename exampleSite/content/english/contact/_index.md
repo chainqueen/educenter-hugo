@@ -14,7 +14,7 @@ You can contact TylerDong in the following ways.
 
 You can send me a message directly via the form on the current web page.
 
-#### [Follow me on Twitter](www.twitter.com/duoyunio)
+#### Follow me on Twitter
 
 Free feel to directly message to me on twitter.
 
