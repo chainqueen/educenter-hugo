@@ -150,10 +150,16 @@ mobile = "oracle_520"
 top_header = true
 
 [params.contact]
-contact_name = "Your Name1"
+contact_name = "Your Name"
 contact_Email = "Your Email"
 contact_Subject = "Subject"
 contact_Message = "Your Message"
+
+[Languages.zh.params.contact]
+contact_name = "怎么称呼您"
+contact_Email = "您的邮箱"
+contact_Subject = "邮件主题"
+contact_Message = "邮件正文"
 
 [params.map]
 enable = true
