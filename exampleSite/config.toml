@@ -1,4 +1,4 @@
-baseURL = "https://dongchangjin.com"
+baseURL = "https://abcstack.io"
 defaultContentLanguage = "zh"
 disableLanguages = []
 disqusShortname = "educenter"
@@ -6,17 +6,17 @@ myURL1 = "https://disqus.com"
 paginate = "6"
 summaryLength = "10"
 theme = "educenter-hugo"
-title = "Cloud Native ML and AI | DongChangJin"
+title = "ABCSTACK | Cloud Native Accelerator"
 [Languages.en]
 contentDir = "content/english"
-copyright = "Copyright &copy; 2020 Tyler Dong All Rights Reserved；Powerd by Hugo with [educenter](https://themefisher.com)"
+copyright = "Copyright &copy; 2020 Cloud Native Accelerator All Rights Reserved；Powerd by Hugo with [educenter](https://themefisher.com)"
 home = "Home"
 languageCode = "en-us"
 languageName = "English"
 weight = 2
 [Languages.zh]
 contentDir = "content/chinese"
-copyright = "Copyright &copy; 2020 Tyler Dong 保留所有权利；基于 Hugo [educenter](https://themefisher.com) 主题构建"
+copyright = "Copyright &copy; 2020 云原生加速器 保留所有权利；基于 Hugo [educenter](https://themefisher.com) 主题构建"
 home = "主页"
 languageCode = "zh-zh"
 languageName = "中文"
