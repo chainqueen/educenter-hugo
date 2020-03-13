@@ -6,7 +6,7 @@ bg_image: "images/backgrounds/page-title.jpg"
 # about image
 image: "images/about/about-page.jpg"
 # meta description
-description : "Tyler Dong’s profile."
+description : "ABCSTACK’s profile."
 ---
 
 ## Introduction

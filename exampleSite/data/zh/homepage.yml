@@ -81,7 +81,7 @@ about:
   enable : true
   title : "关于"
   image : "images/about/about-us.jpg"
-  content : "董长进（Tyler Dong）是云原生技术爱好者，专注于学习和研究与云原生相关的技术，如无服务，服务网格，边缘计算，人工智能等"
+  content : "云原生正在吞噬世界，云原生加速器是针对企业使用云原生技术的加速，专注于与云原生相关的技术，如无服务，服务网格，边缘计算，人工智能等"
   button:
     enable : true
     label : "了解详情"
