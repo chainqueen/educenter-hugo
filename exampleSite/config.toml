@@ -137,7 +137,7 @@ URL = "contact"
 name = "Contact"
 weight = 5
 [params]
-URL = "https://twitter.com/aimatrix/"
+URL = "https://twitter.com/abcstack/"
 address = "Follow Me on Twitter"
 author = "Themefisher"
 contact_form_action = "#"
@@ -198,11 +198,11 @@ mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463e
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
 [[params.social]]
 icon = "ti-facebook"
-link = "https://www.facebook.com/duoyunio"
+link = "https://www.facebook.com/abcstack"
 title = "facebook"
 [[params.social]]
 icon = "ti-twitter-alt"
-link = "https://twitter.com/duoyunio"
+link = "https://twitter.com/abcstack"
 title = "twitter"
 [[params.social]]
 icon = "ti-youtube"
@@ -210,9 +210,9 @@ link = "https://www.youtube.com/channel/UCC0nKPdBP9AtIsDRiUZdKkw?view_as=subscri
 title = "youtube"
 [[params.social]]
 icon = "ti-github"
-link = "https://github.com/duoyunio"
+link = "https://github.com/abcstackio"
 title = "github"
 [[params.social]]
 icon = "ti-linkedin"
-link = "https://www.linkedin.com/in/duodu/"
+link = "https://www.linkedin.com/in/abcstack/"
 title = "linkedin"
