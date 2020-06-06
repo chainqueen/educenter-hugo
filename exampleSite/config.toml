@@ -6,17 +6,17 @@ myURL1 = "https://disqus.com"
 paginate = "6"
 summaryLength = "10"
 theme = "educenter-hugo"
-title = "Cloud Native Hub | Cloud Native Accelerator"
+title = "Cloud Native Hub"
 [Languages.en]
 contentDir = "content/english"
-copyright = "Copyright &copy; 2020 Cloud Native Accelerator All Rights Reserved；Powerd by Hugo with [educenter](https://themefisher.com)"
+copyright = "Copyright &copy; 2020 Cloud Native Accelerator All Rights Reserved；Powerd by Hugo (https://themefisher.com)"
 home = "Home"
 languageCode = "en-us"
 languageName = "English"
 weight = 2
 [Languages.zh]
 contentDir = "content/chinese"
-copyright = "Copyright &copy; 2020 云原生加速器 保留所有权利；基于 Hugo [educenter](https://themefisher.com) 主题构建"
+copyright = "Copyright &copy; 2020 云原生加速器 保留所有权利；基于 Hugo (https://themefisher.com) 主题构建"
 home = "主页"
 languageCode = "zh-zh"
 languageName = "中文"
@@ -80,7 +80,7 @@ weight = 5
 URL = "http://www.baidu.com/"
 address = "请扫描下面二维码加我微信"
 email = "docker2@163.com"
-wechat = "oracle_520"
+wechat = "CloudNativeHub"
 [[menu.footer]]
 URL = "teacher"
 name = "teacher"
@@ -146,7 +146,7 @@ email = "docker2@163.com"
 google_analitycs_id = ""
 logo = "images/logo.png"
 logo1 = "images/logo1.png"
-wechat = "oracle_520"
+wechat = "CloudNativeHub"
 top_header = true
 
 [params.contact]
@@ -198,11 +198,11 @@ mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463e
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
 [[params.social]]
 icon = "ti-facebook"
-link = "https://www.facebook.com/abcstack"
+link = "https://www.facebook.com/CloudNativeHub"
 title = "facebook"
 [[params.social]]
 icon = "ti-twitter-alt"
-link = "https://twitter.com/abcstack"
+link = "https://twitter.com/CloudNativeHub"
 title = "twitter"
 [[params.social]]
 icon = "ti-youtube"
@@ -210,9 +210,9 @@ link = "https://www.youtube.com/channel/UCC0nKPdBP9AtIsDRiUZdKkw?view_as=subscri
 title = "youtube"
 [[params.social]]
 icon = "ti-github"
-link = "https://github.com/abcstackio"
+link = "https://github.com/cloud-native-hub"
 title = "github"
 [[params.social]]
 icon = "ti-linkedin"
-link = "https://www.linkedin.com/in/abcstack/"
+link = "https://www.linkedin.com/in/cloud-native-hub/"
 title = "linkedin"
