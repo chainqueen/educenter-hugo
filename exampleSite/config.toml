@@ -1,4 +1,4 @@
-baseURL = "https://abcstack.com"
+baseURL = "https://cloudnativehub.com"
 defaultContentLanguage = "zh"
 disableLanguages = []
 disqusShortname = "educenter"
@@ -6,7 +6,7 @@ myURL1 = "https://disqus.com"
 paginate = "6"
 summaryLength = "10"
 theme = "educenter-hugo"
-title = "ABCSTACK | Cloud Native Accelerator"
+title = "Cloud Native Hub | Cloud Native Accelerator"
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2020 Cloud Native Accelerator All Rights Reserved；Powerd by Hugo with [educenter](https://themefisher.com)"
