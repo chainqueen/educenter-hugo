@@ -210,7 +210,7 @@ link = "https://www.youtube.com/channel/UCC0nKPdBP9AtIsDRiUZdKkw?view_as=subscri
 title = "youtube"
 [[params.social]]
 icon = "ti-github"
-link = "https://github.com/cloud-native-hub"
+link = "https://github.com/cloudnativehub"
 title = "github"
 [[params.social]]
 icon = "ti-linkedin"
