@@ -1,4 +1,4 @@
-baseURL = "https://cloudnativehub.org"
+baseURL = "https://coding.pub"
 defaultContentLanguage = "zh"
 disableLanguages = []
 disqusShortname = "educenter"
@@ -16,7 +16,7 @@ languageName = "English"
 weight = 2
 [Languages.zh]
 contentDir = "content/chinese"
-copyright = "Copyright &copy; 2020 云原生加速器 保留所有权利；基于 Hugo 主题构建"
+copyright = "Copyright &copy; 2020 开发者加速器 保留所有权利；基于 Hugo 主题构建"
 home = "主页"
 languageCode = "zh-zh"
 languageName = "中文"
@@ -79,8 +79,8 @@ weight = 5
 [Languages.zh.params]
 URL = "http://www.baidu.com/"
 address = "请扫描下面二维码加我微信"
-email = "hi@cloudnativehub.com"
-wechat = "CloudNativeHub"
+email = "hi@coding.pub"
+wechat = "CodingPub"
 [[menu.footer]]
 URL = "teacher"
 name = "teacher"
@@ -198,11 +198,11 @@ mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463e
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
 [[params.social]]
 icon = "ti-facebook"
-link = "https://www.facebook.com/CloudNativeHub"
+link = "https://www.facebook.com/abcstack"
 title = "facebook"
 [[params.social]]
 icon = "ti-twitter-alt"
-link = "https://twitter.com/CloudNativeHub"
+link = "https://twitter.com/abcstack"
 title = "twitter"
 [[params.social]]
 icon = "ti-youtube"
@@ -210,9 +210,9 @@ link = "https://www.youtube.com/channel/UCC0nKPdBP9AtIsDRiUZdKkw?view_as=subscri
 title = "youtube"
 [[params.social]]
 icon = "ti-github"
-link = "https://github.com/cloudnativehub"
+link = "https://github.com/abcstack"
 title = "github"
 [[params.social]]
 icon = "ti-linkedin"
-link = "https://www.linkedin.com/in/cloud-native-hub/"
+link = "https://www.linkedin.com/in/abcstack/"
 title = "linkedin"
