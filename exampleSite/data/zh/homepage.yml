@@ -98,7 +98,7 @@ course:
 cta:
   enable : true
   subtitle : "单击以加入高级研讨会"
-  title : "点击加入云原生社区"
+  title : "点击加入开发者社区"
   button:
     enable : true
     label : "加入我们"
